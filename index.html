@@ -4,13 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Bru Monsó</title>
 
-    <!-- Tipografías -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -18,136 +15,135 @@
 
 <body>
 
-<header>
+<header class="site-header">
+    <a class="logo" href="#">Bru Monsó</a>
 
-    <a class="logo" href="#">
-        Bru Monsó
-    </a>
-
-    <nav>
-
-        <a href="#">Experiencia</a>
-        <a href="#">Proyectos</a>
-        <a href="#">Contacto</a>
-
+    <nav class="site-nav">
+        <a href="#mindset">Enfoque</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
     </nav>
 
     <div class="language">
-        ES
-
+        <span>ES</span>
         <span>/</span>
-
-        EN
+        <span>EN</span>
     </div>
-
 </header>
-
 
 <main>
 
-<section class="hero">
+    <section class="hero">
 
-    <div class="hero-copy">
+        <div class="hero-inner">
 
-        <span class="eyebrow">
-            Administrador de Infraestructura y Cloud
-        </span>
+            <div class="hero-copy">
 
-        <h1>
-            Trabajo administrando y mejorando infraestructuras IT.
-        </h1>
+                <span class="eyebrow">
+                    Administrador de Infraestructura y Cloud
+                </span>
 
-        <p>
-            Mi día a día combina operación, soporte y proyectos de infraestructura.
-            Disfruto entendiendo cómo funcionan las cosas, simplificando sistemas y
-            construyendo soluciones que sean fáciles de mantener.
-        </p>
+                <h1>
+                    Trabajo administrando y mejorando infraestructuras IT.
+                </h1>
 
-        <div class="hero-buttons">
-            <a class="primary" href="#proyectos">Ver proyectos</a>
-            <a class="secondary" href="#">Descargar CV</a>
-        </div>
-
-    </div>
-
-    <aside class="hero-note">
-        <span>Enfoque</span>
-        <p>
-            Infraestructura práctica, segura y mantenible. Menos ruido, más criterio.
-        </p>
-    </aside>
-
-</section>
-
-<section class="mindset" id="mindset">
-
-    <div class="section-id">
-        01
-    </div>
-
-    <div class="mindset-content">
-
-        <span class="section-label">
-            Mi forma de trabajar
-        </span>
-
-        <h2>
-            No busco la solución más llamativa.
-            Busco la que siga teniendo sentido dentro de unos años.
-        </h2>
-
-        <div class="mindset-grid">
-
-            <article>
-
-                <span>01</span>
-
-                <h3>
-                    Entender antes de cambiar
-                </h3>
-
-                <p>
-                    Antes de tocar una infraestructura necesito entender por qué existe
-                    y qué problema intenta resolver.
+                <p class="hero-description">
+                    Mi día a día combina operación, soporte y proyectos de infraestructura.
+                    Me gusta entender los problemas, simplificar lo que es complejo y construir
+                    soluciones que sean fáciles de mantener.
                 </p>
 
-            </article>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#projects">Ver proyectos</a>
+                    <a class="button button-light" href="#contact">Contactar</a>
+                </div>
 
-            <article>
+            </div>
 
-                <span>02</span>
-
-                <h3>
-                    Menos complejidad
-                </h3>
-
+            <aside class="hero-note">
+                <span>Enfoque</span>
                 <p>
-                    Si una solución necesita demasiadas explicaciones,
-                    probablemente todavía pueda simplificarse.
+                    Infraestructura práctica, segura y mantenible. Menos ruido, más criterio.
                 </p>
-
-            </article>
-
-            <article>
-
-                <span>03</span>
-
-                <h3>
-                    Pensar a largo plazo
-                </h3>
-
-                <p>
-                    Me gusta construir entornos que sigan siendo fáciles de mantener
-                    dentro de unos años.
-                </p>
-
-            </article>
+            </aside>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+
+    <section class="mindset" id="mindset">
+
+        <div class="section-meta">
+            <span>01</span>
+            <p>Mi forma de trabajar</p>
+        </div>
+
+        <div class="mindset-content">
+
+            <h2>
+                No busco la solución más llamativa.
+                Busco la que siga teniendo sentido cuando pase el tiempo.
+            </h2>
+
+            <div class="mindset-list">
+
+                <article>
+                    <span>01</span>
+                    <h3>Entender antes de cambiar</h3>
+                    <p>
+                        Antes de tocar una infraestructura intento entender qué problema hay detrás.
+                        Muchas veces la solución correcta empieza por hacer mejores preguntas.
+                    </p>
+                </article>
+
+                <article>
+                    <span>02</span>
+                    <h3>Quitar complejidad</h3>
+                    <p>
+                        No siempre hace falta añadir más tecnología. A veces mejorar un entorno
+                        significa ordenarlo, simplificarlo y hacerlo más fácil de mantener.
+                    </p>
+                </article>
+
+                <article>
+                    <span>03</span>
+                    <h3>Pensar en operación</h3>
+                    <p>
+                        Una solución no termina cuando funciona. Tiene que poder operarse,
+                        documentarse y entenderse cuando alguien vuelva a ella meses después.
+                    </p>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="placeholder-section" id="projects">
+        <div class="section-meta">
+            <span>02</span>
+            <p>Proyectos</p>
+        </div>
+
+        <div class="placeholder-content">
+            <h2>Próximamente: casos reales de infraestructura, identidad y automatización.</h2>
+        </div>
+    </section>
+
+
+    <section class="placeholder-section" id="contact">
+        <div class="section-meta">
+            <span>03</span>
+            <p>Contacto</p>
+        </div>
+
+        <div class="placeholder-content">
+            <h2>LinkedIn, GitHub y correo profesional.</h2>
+        </div>
+    </section>
 
 </main>
 
