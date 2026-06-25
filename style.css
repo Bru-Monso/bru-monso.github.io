@@ -152,9 +152,8 @@ nav a:hover{
 
     display:grid;
 
-    grid-template-columns:1fr 340px;
-
-    gap:80px;
+    grid-template-columns:minmax(0, 1fr) 360px;
+    gap:96px;
 
     align-items:center;
 
@@ -246,9 +245,9 @@ nav a:hover{
 
     border-radius:28px;
 
-    align-self:end;
-
-    margin-bottom:70px;
+    align-self:center;
+    margin-top:120px;
+    margin-bottom:0;
 
 }
 
