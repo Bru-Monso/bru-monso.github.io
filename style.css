@@ -150,15 +150,23 @@ nav a:hover{
 
     min-height:78vh;
 
-    display:flex;
+    display:grid;
 
-    justify-content:center;
+    grid-template-columns:1fr 340px;
 
-    flex-direction:column;
+    gap:80px;
+
+    align-items:center;
 
     padding-top:40px;
 
     animation:fadeUp .7s ease;
+
+}
+
+.hero-copy{
+
+    max-width:900px;
 
 }
 
@@ -225,6 +233,50 @@ nav a:hover{
     transition:.25s;
 
     font-weight:500;
+
+}
+
+.hero-note{
+
+    background:#2C2C2C;
+
+    color:#F3EEE5;
+
+    padding:34px;
+
+    border-radius:28px;
+
+    align-self:end;
+
+    margin-bottom:70px;
+
+}
+
+.hero-note span{
+
+    display:block;
+
+    font-size:.8rem;
+
+    letter-spacing:.14em;
+
+    text-transform:uppercase;
+
+    color:#C8BBAA;
+
+    margin-bottom:24px;
+
+}
+
+.hero-note p{
+
+    font-family:"Newsreader",serif;
+
+    font-size:1.65rem;
+
+    line-height:1.25;
+
+    color:#F3EEE5;
 
 }
 
@@ -309,7 +361,19 @@ nav a:hover{
         font-size:3.5rem;
 
     }
+    .hero{
 
+        grid-template-columns:1fr;
+
+        gap:48px;
+
+    }
+
+    .hero-note{
+
+        margin-bottom:0;
+
+    }
 }
 
 @media(max-width:600px){
