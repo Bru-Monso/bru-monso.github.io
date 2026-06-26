@@ -1,6 +1,6 @@
 /* ==========================================
    BRUMONSO.COM
-   V2.2 - Dark Anchor
+   V2.4 - Dark Anchor Balanced
 ========================================== */
 
 :root{
@@ -109,8 +109,8 @@ body{
     margin:0 auto;
 
     display:grid;
-    grid-template-columns:minmax(0, 1fr) minmax(420px, 34vw);
-    gap:72px;
+    grid-template-columns:minmax(0,1fr) minmax(520px,40vw);
+    gap:24px;
     align-items:center;
 
     position:relative;
@@ -123,15 +123,17 @@ body{
     top:10%;
     width:38%;
     height:74%;
-    background:rgba(251,247,239,.50);
-    border:1px solid rgba(216,204,190,.50);
+    background:rgba(251,247,239,.32);
+    border:1px solid rgba(216,204,190,.28);
     border-radius:44px;
     z-index:-1;
-    box-shadow:0 30px 90px rgba(41,40,39,.055);
+    box-shadow:0 30px 90px rgba(41,40,39,.035);
 }
 
 .hero-copy{
     padding:70px 0 40px;
+    position:relative;
+    z-index:2;
 }
 
 .eyebrow{
@@ -202,13 +204,16 @@ body{
 
 .hero-note{
     width:100%;
-    min-height:520px;
+    min-height:460px;
+
+    margin-left:-48px;
+    transform:translateY(36px);
 
     padding:48px;
     border-radius:42px;
 
     background:
-        radial-gradient(circle at 82% 82%, rgba(168,135,88,.34), transparent 24%),
+        radial-gradient(circle at 84% 86%, rgba(168,135,88,.34), transparent 25%),
         linear-gradient(145deg, #31302F 0%, #222120 100%);
 
     color:var(--bg);
@@ -234,19 +239,19 @@ body{
 .hero-note::after{
     content:"";
     position:absolute;
-    right:-60px;
-    bottom:-70px;
-    width:220px;
-    height:220px;
+    right:-70px;
+    bottom:-80px;
+    width:230px;
+    height:230px;
     border-radius:50%;
     background:var(--accent);
-    opacity:.18;
+    opacity:.16;
 }
 
 .hero-note span{
     display:block;
     color:var(--accent-soft);
-    font-size:.74rem;
+    font-size:.72rem;
     letter-spacing:.20em;
     text-transform:uppercase;
 }
@@ -255,10 +260,11 @@ body{
     position:relative;
     z-index:1;
     font-family:"Newsreader",serif;
-    font-size:clamp(2.1rem, 2.6vw, 3.4rem);
-    line-height:1.02;
+    font-size:clamp(1.75rem, 2.15vw, 2.75rem);
+    line-height:1.04;
     letter-spacing:-.035em;
-    max-width:420px;
+    max-width:390px;
+    opacity:.94;
 }
 
 /* SECTIONS */
@@ -402,12 +408,12 @@ body{
 @keyframes fadeUp{
     from{
         opacity:0;
-        transform:translateY(22px);
+        transform:translateY(58px);
     }
 
     to{
         opacity:1;
-        transform:translateY(0);
+        transform:translateY(36px);
     }
 }
 
@@ -428,6 +434,20 @@ body{
     .hero-note{
         max-width:720px;
         min-height:360px;
+        margin-left:0;
+        transform:translateY(0);
+    }
+
+    @keyframes fadeUp{
+        from{
+            opacity:0;
+            transform:translateY(22px);
+        }
+
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
     }
 
     .mindset,
@@ -476,7 +496,7 @@ body{
     }
 
     .hero-note p{
-        font-size:2rem;
+        font-size:1.9rem;
     }
 
     .section-meta span{
