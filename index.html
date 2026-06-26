@@ -39,9 +39,7 @@
             <div class="hero-copy">
                 <span class="eyebrow">Administrador de Infraestructura y Cloud</span>
 
-                <h1>
-                    Infraestructura y cloud, desde proyectos reales.
-                </h1>
+                <h1>Infraestructura y cloud, desde proyectos reales.</h1>
 
                 <p class="hero-description">
                     Trabajo en infraestructura IT con foco en cloud, identidad y automatización.
@@ -57,9 +55,7 @@
 
             <aside class="hero-note">
                 <span>Enfoque</span>
-                <p>
-                    Primero entender. Después decidir qué tocar.
-                </p>
+                <p>Primero entender. Después decidir qué tocar.</p>
             </aside>
 
         </div>
@@ -72,13 +68,9 @@
         </div>
 
         <div class="mindset-content">
-
-            <h2>
-                No quiero enseñar una lista de tecnologías. Quiero explicar cómo resuelvo problemas.
-            </h2>
+            <h2>No quiero enseñar una lista de tecnologías. Quiero explicar cómo resuelvo problemas.</h2>
 
             <div class="mindset-list">
-
                 <article>
                     <span>01</span>
                     <h3>Entender qué hay</h3>
@@ -105,7 +97,6 @@
                         Ahí se nota si una solución estaba bien pensada.
                     </p>
                 </article>
-
             </div>
         </div>
     </section>
@@ -117,40 +108,37 @@
         </div>
 
         <div class="placeholder-content projects-preview">
-            <h2>Proyectos que explican mejor cómo trabajo.</h2>
+            <h2>Áreas de trabajo explicadas desde casos reales.</h2>
 
             <div class="project-list">
-                <article>
+
+                <article class="project-card" data-modal="entra">
                     <span>Caso 01</span>
-                    <h3>Gobierno de identidades y permisos</h3>
+                    <h3>Gobierno de identidades con Microsoft Entra ID</h3>
                     <p>
-                        Gestión de usuarios, grupos, roles y accesos en un entorno híbrido.
+                        Evolución de la gestión de identidades, accesos, aplicaciones empresariales y automatización.
                     </p>
+                    <button class="project-link">Explorar caso →</button>
                 </article>
 
-                <article>
+                <article class="project-card">
                     <span>Caso 02</span>
-                    <h3>Automatización con PowerShell</h3>
+                    <h3>Gobierno y optimización de AWS</h3>
                     <p>
-                        Procesos repetitivos que se podían ordenar, automatizar y dejar más controlados.
+                        Costes, seguridad, backups, S3, IAM y mejora continua de infraestructura cloud.
                     </p>
+                    <button class="project-link" disabled>Próximamente</button>
                 </article>
 
-                <article>
+                <article class="project-card">
                     <span>Caso 03</span>
-                    <h3>Infraestructura cloud en AWS</h3>
+                    <h3>Infraestructura híbrida</h3>
                     <p>
-                        Administración y mejora de servicios cloud reales, con foco en operación y mantenimiento.
+                        Convivencia entre sistemas internos, Active Directory, Entra ID, redes y cloud.
                     </p>
+                    <button class="project-link" disabled>Próximamente</button>
                 </article>
 
-                <article>
-                    <span>Caso 04</span>
-                    <h3>Infraestructura híbrida y sistemas</h3>
-                    <p>
-                        Trabajo con entornos donde cloud, sistemas internos e identidad tienen que convivir bien.
-                    </p>
-                </article>
             </div>
         </div>
     </section>
@@ -161,14 +149,156 @@
             <p>Contacto</p>
         </div>
 
-        <div class="placeholder-content">
-            <h2> Si has llegado hasta aquí, probablemente ya sabes cómo trabajo. </h2>
-            <p> Puedes escribirme para hablar sobre infraestructura, cloud o simplemente compartir ideas. Siempre estoy abierto a aprender algo nuevo. </p>
+        <div class="placeholder-content contact-content">
+            <h2>Si has llegado hasta aquí, probablemente ya sabes cómo trabajo.</h2>
+            <p>
+                Puedes escribirme para hablar sobre infraestructura, cloud o simplemente compartir ideas.
+                Siempre estoy abierto a aprender algo nuevo.
+            </p>
         </div>
     </section>
 
+    <div class="case-overlay" id="caseOverlay">
+        <div class="case-backdrop" data-close-modal></div>
+
+        <article class="case-modal" id="caseModal">
+            <button class="case-close" data-close-modal>×</button>
+
+            <div class="case-view case-view-active" data-view="summary">
+                <span class="case-kicker">Caso real</span>
+
+                <h2>Gobierno de identidades con Microsoft Entra ID</h2>
+
+                <section>
+                    <h3>Contexto</h3>
+                    <p>
+                        Microsoft Entra ID ya estaba implantado, pero todavía había margen para mejorar
+                        la gestión de identidades, permisos y acceso a las aplicaciones corporativas.
+                    </p>
+                    <p>
+                        El objetivo no era implantar una única funcionalidad, sino construir una base más sólida
+                        sobre la que seguir creciendo.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Retos</h3>
+                    <ul>
+                        <li>Integrar aplicaciones mediante Single Sign-On.</li>
+                        <li>Sincronizar información del Active Directory local hacia Entra ID.</li>
+                        <li>Automatizar la asignación de licencias mediante grupos dinámicos.</li>
+                        <li>Mejorar la autenticación mediante políticas de Conditional Access.</li>
+                        <li>Gestionar colaboradores externos mediante usuarios B2B.</li>
+                        <li>Preparar el entorno para futuras implantaciones como Privileged Identity Management.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Casos destacados</h3>
+
+                    <div class="case-chapters">
+                        <button data-open-view="sso">
+                            <span>01</span>
+                            Implantación de Single Sign-On
+                        </button>
+
+                        <button data-open-view="attributes">
+                            <span>02</span>
+                            Sincronización de atributos
+                        </button>
+
+                        <button disabled>
+                            <span>03</span>
+                            Automatización de licencias
+                        </button>
+
+                        <button disabled>
+                            <span>04</span>
+                            Conditional Access
+                        </button>
+
+                        <button disabled>
+                            <span>05</span>
+                            Usuarios B2B
+                        </button>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Próximos pasos</h3>
+                    <p>
+                        Implementación de PIM y mejora continua del modelo de gobierno de identidades.
+                    </p>
+                </section>
+            </div>
+
+            <div class="case-view" data-view="sso">
+                <button class="case-back" data-open-view="summary">← Volver</button>
+
+                <span class="case-kicker">Capítulo 01</span>
+                <h2>Implantación de Single Sign-On</h2>
+
+                <section>
+                    <h3>Contexto</h3>
+                    <p>
+                        Algunas aplicaciones empresariales necesitaban integrarse con Microsoft Entra ID para centralizar
+                        el acceso y reducir la gestión manual de credenciales.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Qué había que resolver</h3>
+                    <p>
+                        Revisar la aplicación, entender qué requería el proveedor, configurar SAML, validar atributos,
+                        probar el acceso y pasarlo a producción sin romper el uso diario.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Resultado</h3>
+                    <p>
+                        Aplicaciones integradas con SSO, acceso más ordenado y una base más clara para futuras integraciones.
+                    </p>
+                </section>
+            </div>
+
+            <div class="case-view" data-view="attributes">
+                <button class="case-back" data-open-view="summary">← Volver</button>
+
+                <span class="case-kicker">Capítulo 02</span>
+                <h2>Sincronización de atributos desde Active Directory</h2>
+
+                <section>
+                    <h3>Contexto</h3>
+                    <p>
+                        Había información académica y organizativa que podía ser útil en Entra ID,
+                        pero primero debía estar bien informada y controlada desde el entorno local.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Qué había que resolver</h3>
+                    <p>
+                        Informar atributos en Active Directory, controlar la lógica de actualización
+                        y permitir que esa información llegara a Entra ID para usarla en grupos,
+                        licencias y organización.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Resultado</h3>
+                    <p>
+                        Una clasificación más útil para automatizar decisiones posteriores sin depender tanto de procesos manuales.
+                    </p>
+                </section>
+            </div>
+
+        </article>
+    </div>
+
 </main>
 
+<script src="script.js"></script>
 </body>
 
 </html>
