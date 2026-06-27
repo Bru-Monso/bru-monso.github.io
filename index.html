@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_final.css">
 </head>
 
 <body>
@@ -19,8 +19,8 @@
     <a class="logo" href="#">Bru Monsó</a>
 
     <nav class="site-nav">
-        <a href="#mindset">Cómo trabajo</a>
-        <a href="#projects">Casos reales</a>
+        <a href="#mindset">Forma de trabajar</a>
+        <a href="#projects">Proyectos</a>
         <a href="#contact">Contacto</a>
     </nav>
 
@@ -37,25 +37,25 @@
         <div class="hero-inner">
 
             <div class="hero-copy">
-                <span class="eyebrow">Administrador de Infraestructura y Cloud</span>
+                <span class="eyebrow">Infraestructura IT & Cloud</span>
 
-                <h1>Infraestructura y cloud, desde proyectos reales.</h1>
+                <h1>Proyectos de infraestructura, cloud e identidad.</h1>
 
                 <p class="hero-description">
                     Trabajo en infraestructura IT con foco en cloud, identidad y automatización.
-                    En esta web quiero explicar proyectos en los que he trabajado de verdad:
-                    qué problema había, cómo lo enfoqué y qué decisiones tomé por el camino.
+                    Aquí explico proyectos en los que he participado: qué problema había,
+                    qué hice, qué decisiones tomé y qué aprendí durante el proceso.
                 </p>
 
                 <div class="hero-actions">
-                    <a class="button button-dark" href="#projects">Ver casos reales</a>
+                    <a class="button button-dark" href="#projects">Ver proyectos</a>
                     <a class="button button-light" href="#contact">Contactar</a>
                 </div>
             </div>
 
             <aside class="hero-note">
-                <span>Enfoque</span>
-                <p>Primero entender. Después decidir qué tocar.</p>
+                <span>Idea base</span>
+                <p>Que funcione hoy no basta. Tiene que poder mantenerse mañana.</p>
             </aside>
 
         </div>
@@ -64,37 +64,37 @@
     <section class="mindset" id="mindset">
         <div class="section-meta">
             <span>01</span>
-            <p>Cómo trabajo</p>
+            <p>Forma de trabajar</p>
         </div>
 
         <div class="mindset-content">
-            <h2>No quiero enseñar una lista de tecnologías. Quiero explicar cómo resuelvo problemas.</h2>
+            <h2>No se trata solo de configurar servicios. Se trata de entender el problema y dejar una solución que tenga sentido.</h2>
 
             <div class="mindset-list">
                 <article>
                     <span>01</span>
-                    <h3>Entender qué hay</h3>
+                    <h3>Ordenar el problema</h3>
                     <p>
-                        Antes de cambiar algo necesito entender cómo está montado, qué depende de qué
-                        y por qué se hizo así.
+                        Antes de empezar necesito tener claro qué hay, qué depende de qué y qué información falta.
+                        Si no entiendo el entorno, prefiero parar y aclararlo antes de avanzar.
                     </p>
                 </article>
 
                 <article>
                     <span>02</span>
-                    <h3>Valorar opciones</h3>
+                    <h3>Elegir una solución defendible</h3>
                     <p>
-                        Muchas veces hay varias formas de resolver lo mismo. Para mí lo importante es escoger
-                        la que encaja mejor con el entorno, es escalable y resiliente, no la más vistosa.
+                        Casi siempre hay más de una forma de resolver lo mismo. Intento escoger una opción segura,
+                        mantenible y que pueda explicar después sin depender de magia ni parches raros.
                     </p>
                 </article>
 
                 <article>
                     <span>03</span>
-                    <h3>Dejarlo mantenible</h3>
+                    <h3>Dejar margen de vuelta atrás</h3>
                     <p>
-                        Si dentro de unos meses alguien tiene que tocarlo, tiene que poder entenderlo.
-                        Ahí se nota si una solución estaba bien pensada.
+                        Un proyecto no termina cuando funciona. Tiene que poder escalar, tener margen de vuelta atrás
+                        y quedar documentado para que dentro de unos meses siga teniendo sentido.
                     </p>
                 </article>
             </div>
@@ -104,39 +104,39 @@
     <section class="placeholder-section" id="projects">
         <div class="section-meta">
             <span>02</span>
-            <p>Casos reales</p>
+            <p>Proyectos</p>
         </div>
 
         <div class="placeholder-content projects-preview">
-            <h2>Áreas de trabajo explicadas desde casos reales.</h2>
+            <h2>Proyectos agrupados por el tipo de problema.</h2>
 
             <div class="project-list">
 
                 <article class="project-card" data-modal="entra">
-                    <span>Caso 01</span>
+                    <span>Área 01</span>
                     <h3>Gobierno de identidades con Microsoft Entra ID</h3>
                     <p>
-                        Evolución de la gestión de identidades, accesos, aplicaciones empresariales y automatización.
+                        SSO, identidades híbridas, grupos dinámicos, acceso condicional, B2B y gobierno de aplicaciones.
                     </p>
-                    <button class="project-link">Explorar caso →</button>
+                    <button class="project-link">Ver proyectos →</button>
                 </article>
 
-                <article class="project-card">
-                    <span>Caso 02</span>
-                    <h3>Gobierno y optimización de AWS</h3>
+                <article class="project-card" data-modal="aws">
+                    <span>Área 02</span>
+                    <h3>Gobierno, seguridad y optimización cloud</h3>
                     <p>
-                        Costes, seguridad, backups, S3, IAM y mejora continua de infraestructura cloud.
+                        AWS, costes, IAM, S3, backups, auditoría, seguridad y mejora continua de infraestructura cloud.
                     </p>
-                    <button class="project-link" disabled>Próximamente</button>
+                    <button class="project-link">Ver proyectos →</button>
                 </article>
 
-                <article class="project-card">
-                    <span>Caso 03</span>
+                <article class="project-card" data-modal="hybrid">
+                    <span>Área 03</span>
                     <h3>Infraestructura híbrida</h3>
                     <p>
-                        Convivencia entre sistemas internos, Active Directory, Entra ID, redes y cloud.
+                        Convivencia entre sistemas internos, Active Directory, Entra ID, redes, servidores y cloud.
                     </p>
-                    <button class="project-link" disabled>Próximamente</button>
+                    <button class="project-link">Ver proyectos →</button>
                 </article>
 
             </div>
@@ -150,11 +150,11 @@
         </div>
 
         <div class="placeholder-content contact-content">
-            <h2>Si has llegado hasta aquí, ya sabes bastante más de cómo trabajo que leyendo un currículum.</h2>
+            <h2>Si has llegado hasta aquí, ya tienes una idea bastante clara de lo que he hecho y cómo trabajo.</h2>
 
             <p>
                 Puedes escribirme para hablar sobre infraestructura, cloud, identidad o proyectos donde creas
-                que puedo aportar criterio. Sin llamadas sorpresa, mejor por escrito.
+                que puedo aportar. Mejor por escrito, así puedo revisar bien el contexto.
             </p>
 
             <div class="contact-links">
@@ -189,68 +189,73 @@
         </div>
     </section>
 
-    <div class="case-overlay" id="caseOverlay">
+    <div class="case-overlay" id="caseOverlay" aria-hidden="true">
         <div class="case-backdrop" data-close-modal></div>
 
         <article class="case-modal" id="caseModal">
             <button class="case-close" data-close-modal>×</button>
 
-            <div class="case-view case-view-active" data-view="summary">
-                <span class="case-kicker">Caso real</span>
+            <!-- ÁREA 01 — MICROSOFT ENTRA ID -->
+            <div class="case-view case-view-active" data-view="entra">
+                <span class="case-kicker">Área 01</span>
 
                 <h2>Gobierno de identidades con Microsoft Entra ID</h2>
 
                 <section>
                     <h3>Contexto</h3>
                     <p>
-                        Microsoft Entra ID ya estaba implantado, pero todavía había margen para mejorar
-                        la gestión de identidades, permisos y acceso a las aplicaciones corporativas.
+                        Microsoft Entra ID ya formaba parte de la infraestructura, pero todavía había margen para
+                        ordenar mejor la gestión de identidades, accesos y aplicaciones empresariales.
                     </p>
                     <p>
-                        El objetivo no era implantar una única funcionalidad, sino construir una base más sólida
-                        sobre la que seguir creciendo.
+                        Esta área reúne proyectos relacionados con identidad, acceso a aplicaciones y gobierno de identidades mediante Microsoft Entra ID.
                     </p>
                 </section>
 
                 <section>
                     <h3>Retos</h3>
                     <ul>
-                        <li>Integrar aplicaciones mediante Single Sign-On.</li>
-                        <li>Sincronizar información del Active Directory local hacia Entra ID.</li>
-                        <li>Automatizar la asignación de licencias mediante grupos dinámicos.</li>
-                        <li>Mejorar la autenticación mediante políticas de Conditional Access.</li>
-                        <li>Gestionar colaboradores externos mediante usuarios B2B.</li>
-                        <li>Preparar el entorno para futuras implantaciones como Privileged Identity Management.</li>
+                        <li>Centralizar el acceso a aplicaciones empresariales.</li>
+                        <li>Mejorar la calidad de las identidades sincronizadas.</li>
+                        <li>Reducir tareas manuales mediante grupos dinámicos.</li>
+                        <li>Aplicar políticas de seguridad de forma más controlada.</li>
+                        <li>Gestionar colaboración externa sin perder gobierno del acceso.</li>
+                        <li>Preparar el entorno para capacidades futuras como PIM.</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h3>Casos destacados</h3>
+                    <h3>Proyectos destacados</h3>
 
                     <div class="case-chapters">
                         <button data-open-view="sso">
                             <span>01</span>
-                            Implantación de Single Sign-On
+                            Integración SSO con SAML
                         </button>
 
-                        <button data-open-view="attributes">
+                        <button disabled>
                             <span>02</span>
-                            Sincronización de atributos
+                            Clasificación y sincronización de identidades híbridas
                         </button>
 
                         <button disabled>
                             <span>03</span>
-                            Automatización de licencias
+                            Automatización mediante grupos dinámicos
                         </button>
 
                         <button disabled>
                             <span>04</span>
-                            Conditional Access
+                            Conditional Access y acceso seguro
                         </button>
 
                         <button disabled>
                             <span>05</span>
-                            Usuarios B2B
+                            Colaboración externa mediante usuarios B2B
+                        </button>
+
+                        <button disabled>
+                            <span>06</span>
+                            Gobierno de aplicaciones empresariales
                         </button>
                     </div>
                 </section>
@@ -258,68 +263,243 @@
                 <section>
                     <h3>Próximos pasos</h3>
                     <p>
-                        Implementación de PIM y mejora continua del modelo de gobierno de identidades.
+                        Implementar PIM, terminar la integración con AWS IAM Identity Center y seguir evolucionando
+                        el modelo de gobierno de identidades.
                     </p>
                 </section>
             </div>
 
+            <!-- CASO 01 — SSO -->
             <div class="case-view" data-view="sso">
-                <button class="case-back" data-open-view="summary">← Volver</button>
+                <button class="case-back" data-open-view="entra">← Volver</button>
 
-                <span class="case-kicker">Capítulo 01</span>
-                <h2>Implantación de Single Sign-On</h2>
+                <span class="case-kicker">Proyecto 01</span>
+                <h2>Integración de aplicaciones empresariales mediante Single Sign-On (SAML)</h2>
 
                 <section>
                     <h3>Contexto</h3>
                     <p>
-                        Algunas aplicaciones empresariales necesitaban integrarse con Microsoft Entra ID para centralizar
-                        el acceso y reducir la gestión manual de credenciales.
+                        A medida que Microsoft Entra ID fue adquiriendo un papel central dentro de la infraestructura,
+                        surgió la necesidad de integrar distintas aplicaciones empresariales mediante Single Sign-On.
+                    </p>
+                    <p>
+                        El objetivo era centralizar la autenticación, simplificar la gestión de usuarios y aprovechar
+                        políticas de seguridad ya existentes como MFA, Conditional Access o la gestión basada en grupos.
+                    </p>
+                    <p>
+                        Durante este proceso participé en varias integraciones utilizando SAML, colaborando inicialmente
+                        en Statista y realizando posteriormente de forma autónoma la integración de Sigma, AXES y la
+                        preparación de AWS IAM Identity Center.
                     </p>
                 </section>
 
                 <section>
-                    <h3>Qué había que resolver</h3>
+                    <h3>Qué hice</h3>
                     <p>
-                        Revisar la aplicación, entender qué requería el proveedor, configurar SAML, validar atributos,
-                        probar el acceso y pasarlo a producción sin romper el uso diario.
+                        Cada aplicación requería una configuración diferente, así que antes de configurarla era necesario
+                        entender cómo esperaba autenticarse cada proveedor y qué información necesitaba recibir desde
+                        Microsoft Entra ID.
+                    </p>
+
+                    <ul>
+                        <li>Configuración de Enterprise Applications en Microsoft Entra ID.</li>
+                        <li>Intercambio de metadata XML y certificados con proveedores.</li>
+                        <li>Configuración de autenticación SAML.</li>
+                        <li>Definición de claims, atributos de usuario y NameID.</li>
+                        <li>Configuración de grupos dinámicos para automatizar la asignación de acceso.</li>
+                        <li>Validación funcional junto con proveedores y usuarios finales.</li>
+                        <li>Puesta en producción de las integraciones.</li>
+                    </ul>
+
+                    <p>
+                        En Sigma, además, diseñé grupos dinámicos para separar automáticamente profesores y alumnos,
+                        ya que ambos colectivos acceden a aplicaciones diferentes utilizando el mismo proveedor de identidad.
+                    </p>
+
+                    <p>
+                        La integración con AWS IAM Identity Center quedó preparada desde Microsoft Entra ID, quedando
+                        pendiente únicamente la configuración final dentro de AWS Organizations por limitaciones de la
+                        cuenta actual.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Lo más interesante</h3>
+                    <p>
+                        La parte más compleja no fue la configuración técnica de SAML, sino entender cómo funciona
+                        realmente el proceso de autenticación entre Microsoft Entra ID y cada aplicación.
+                    </p>
+                    <p>
+                        Cada proveedor interpreta de forma diferente aspectos como los atributos, los claims, el NameID
+                        o los certificados. Eso obligó a entender la lógica de cada integración antes de configurarla bien.
+                    </p>
+                    <p>
+                        Ese cambio de mentalidad fue importante: dejar de seguir documentación paso a paso y empezar
+                        a entender cómo diseñar este tipo de integraciones.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Qué aprendí</h3>
+                    <p>
+                        Este proyecto me permitió comprender mejor el funcionamiento de SAML y el papel de Microsoft Entra ID
+                        como proveedor de identidad.
+                    </p>
+                    <p>
+                        También entendí la importancia de los atributos sincronizados desde Active Directory, los grupos
+                        dinámicos y la relación entre autenticación, autorización y gobierno de identidades.
+                    </p>
+                    <p>
+                        Una buena integración no termina cuando un usuario inicia sesión. Tiene que facilitar la administración
+                        futura y permitir aplicar de forma centralizada medidas de seguridad como MFA, Conditional Access o,
+                        próximamente, Privileged Identity Management.
                     </p>
                 </section>
 
                 <section>
                     <h3>Resultado</h3>
                     <p>
-                        Aplicaciones integradas con SSO, acceso más ordenado y una base más clara para futuras integraciones.
+                        Actualmente varias aplicaciones empresariales utilizan Microsoft Entra ID como proveedor de identidad,
+                        reduciendo la gestión manual de credenciales y facilitando una administración más centralizada del
+                        acceso a las aplicaciones.
+                    </p>
+                    <p>
+                        Más allá de cada integración individual, este proyecto sentó las bases para seguir evolucionando el modelo
+                        de identidad de la organización y afrontar futuras implantaciones de forma más sencilla.
                     </p>
                 </section>
             </div>
 
-            <div class="case-view" data-view="attributes">
-                <button class="case-back" data-open-view="summary">← Volver</button>
+            <!-- ÁREA 02 — AWS / CLOUD -->
+            <div class="case-view" data-view="aws">
+                <span class="case-kicker">Área 02</span>
 
-                <span class="case-kicker">Capítulo 02</span>
-                <h2>Sincronización de atributos desde Active Directory</h2>
+                <h2>Gobierno, seguridad y optimización cloud</h2>
 
                 <section>
                     <h3>Contexto</h3>
                     <p>
-                        Había información académica y organizativa que podía ser útil en Entra ID,
-                        pero primero debía estar bien informada y controlada desde el entorno local.
+                        Trabajar en cloud no es solo desplegar servicios. También implica revisar seguridad,
+                        costes, accesos, backups y operación diaria para que el entorno sea mantenible.
+                    </p>
+                    <p>
+                        Aquí agrupo proyectos relacionados con AWS, seguridad, optimización de costes y evolución de infraestructuras cloud.
                     </p>
                 </section>
 
                 <section>
-                    <h3>Qué había que resolver</h3>
+                    <h3>Retos</h3>
+                    <ul>
+                        <li>Administrar infraestructura AWS existente sin tratarla como un entorno de laboratorio.</li>
+                        <li>Analizar hallazgos de auditoría y convertirlos en un plan técnico accionable.</li>
+                        <li>Mejorar el acceso a servidores reduciendo dependencia de SSH e IPs públicas.</li>
+                        <li>Revisar IAM, usuarios, roles, MFA, access keys y principio de mínimo privilegio.</li>
+                        <li>Detectar oportunidades de optimización de costes sin vender humo ni hablar solo de números.</li>
+                        <li>Diseñar una base más clara de backups, versionado, lifecycle y recuperación.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Proyectos destacados</h3>
+
+                    <div class="case-chapters">
+                        <button disabled>
+                            <span>01</span>
+                            Infraestructura AWS para AXES
+                        </button>
+
+                        <button disabled>
+                            <span>02</span>
+                            Roadmap de seguridad Cloud tras auditoría
+                        </button>
+
+                        <button disabled>
+                            <span>03</span>
+                            Acceso seguro mediante AWS Systems Manager
+                        </button>
+
+                        <button disabled>
+                            <span>04</span>
+                            Gobierno IAM y principio de mínimo privilegio en AWS
+                        </button>
+
+                        <button disabled>
+                            <span>05</span>
+                            Optimización Cloud y análisis de costes
+                        </button>
+
+                        <button disabled>
+                            <span>06</span>
+                            Protección de datos en AWS: backups, S3 y lifecycle
+                        </button>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Próximos pasos</h3>
                     <p>
-                        Informar atributos en Active Directory, controlar la lógica de actualización
-                        y permitir que esa información llegara a Entra ID para usarla en grupos,
-                        licencias y organización.
+                        Evolucionar el entorno hacia un modelo más gobernado con AWS IAM Identity Center, Organizations,
+                        SCP, Security Hub, GuardDuty, Systems Manager y una estrategia más clara de automatización.
+                    </p>
+                </section>
+            </div>
+
+            <!-- ÁREA 03 — INFRAESTRUCTURA HÍBRIDA -->
+            <div class="case-view" data-view="hybrid">
+                <span class="case-kicker">Área 03</span>
+
+                <h2>Infraestructura híbrida</h2>
+
+                <section>
+                    <h3>Contexto</h3>
+                    <p>
+                        En muchos entornos reales conviven Active Directory, Entra ID, servidores Windows y Linux,
+                        VMware, redes, firewalls, VPN y aplicaciones corporativas que tienen que seguir funcionando
+                        mientras la infraestructura evoluciona.
+                    </p>
+                    <p>
+                        Este bloque reúne proyectos donde la infraestructura local y la nube conviven para ofrecer un entorno único, desde redes y servidores hasta servicios corporativos.
                     </p>
                 </section>
 
                 <section>
-                    <h3>Resultado</h3>
+                    <h3>Retos</h3>
+                    <ul>
+                        <li>Entender dependencias entre sistemas antes de modificar nada.</li>
+                        <li>Mantener servicios internos funcionando mientras se introducen mejoras.</li>
+                        <li>Conectar identidad local, Entra ID, redes y servicios cloud de forma ordenada.</li>
+                        <li>Resolver incidencias reales de infraestructura sin perder visión global del entorno.</li>
+                        <li>Administrar sistemas corporativos que dependen tanto de software como de hardware.</li>
+                        <li>Documentar y dejar las soluciones preparadas para que puedan mantenerse después.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Proyectos destacados</h3>
+
+                    <div class="case-chapters">
+                        <button disabled>
+                            <span>01</span>
+                            Integración entre infraestructura local y cloud
+                        </button>
+
+                        <button disabled>
+                            <span>02</span>
+                            Administración de infraestructura corporativa
+                        </button>
+
+                        <button disabled>
+                            <span>03</span>
+                            Sistemas corporativos: BioStar2, 3CX y control de accesos
+                        </button>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Próximos pasos</h3>
                     <p>
-                        Una clasificación más útil para automatizar decisiones posteriores sin depender tanto de procesos manuales.
+                        Seguir conectando la operación diaria de infraestructura con una visión más cloud, automatizada
+                        y documentada, sin perder de vista los sistemas que ya existen y que tienen que seguir funcionando.
                     </p>
                 </section>
             </div>
@@ -329,7 +509,7 @@
 
 </main>
 
-<script src="script.js"></script>
+<script src="script_final.js"></script>
 </body>
 
 </html>

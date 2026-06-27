@@ -1,13 +1,23 @@
 const overlay = document.getElementById("caseOverlay");
+const modal = document.getElementById("caseModal");
+
 const modalTriggers = document.querySelectorAll("[data-modal]");
 const closeTriggers = document.querySelectorAll("[data-close-modal]");
 const viewTriggers = document.querySelectorAll("[data-open-view]");
 const views = document.querySelectorAll(".case-view");
 
-function openModal() {
+function openView(viewName) {
+    views.forEach((view) => {
+        view.classList.toggle("case-view-active", view.dataset.view === viewName);
+    });
+
+    modal.scrollTop = 0;
+}
+
+function openModal(viewName) {
     overlay.classList.add("is-open");
     document.body.classList.add("modal-open");
-    openView("summary");
+    openView(viewName);
 }
 
 function closeModal() {
@@ -15,21 +25,10 @@ function closeModal() {
     document.body.classList.remove("modal-open");
 }
 
-function openView(viewName) {
-    views.forEach((view) => {
-        view.classList.toggle("case-view-active", view.dataset.view === viewName);
-    });
-
-    const modal = document.getElementById("caseModal");
-    modal.scrollTop = 0;
-}
-
 modalTriggers.forEach((trigger) => {
-    trigger.addEventListener("click", openModal);
-});
-
-closeTriggers.forEach((trigger) => {
-    trigger.addEventListener("click", closeModal);
+    trigger.addEventListener("click", () => {
+        openModal(trigger.dataset.modal);
+    });
 });
 
 viewTriggers.forEach((trigger) => {
@@ -38,8 +37,12 @@ viewTriggers.forEach((trigger) => {
     });
 });
 
+closeTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", closeModal);
+});
+
 document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
+    if (event.key === "Escape" && overlay.classList.contains("is-open")) {
         closeModal();
     }
 });
