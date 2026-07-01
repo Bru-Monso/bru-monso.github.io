@@ -27,18 +27,43 @@
         <div class="nav-item nav-projects">
             <a href="#projects" aria-haspopup="true">Proyectos</a>
             <div class="nav-dropdown" aria-label="Áreas de proyectos">
-                <button type="button" data-modal="entra">
-                    <span>Área 01</span>
-                    Microsoft Entra ID
-                </button>
-                <button type="button" data-modal="aws">
-                    <span>Área 02</span>
-                    AWS / Cloud
-                </button>
-                <button type="button" data-modal="hybrid">
-                    <span>Área 03</span>
-                    Infraestructura híbrida
-                </button>
+
+                <div class="nav-drop-item">
+                    <button type="button" data-modal="entra">
+                        <span>Área 01</span>
+                        Microsoft Entra ID
+                    </button>
+
+                    <div class="nav-subdropdown">
+                        <button type="button" data-open-view="entra-sso">SSO mediante SAML</button>
+                        <button type="button" data-open-view="entra-lifecycle">Ciclo de vida de identidades</button>
+                        <button type="button" data-open-view="entra-ca">Conditional Access</button>
+                        <button type="button" data-open-view="entra-b2b">Entra B2B</button>
+                    </div>
+                </div>
+
+                <div class="nav-drop-item">
+                    <button type="button" data-modal="aws">
+                        <span>Área 02</span>
+                        AWS / Cloud
+                    </button>
+
+                    <div class="nav-subdropdown">
+                        <button type="button" data-open-view="aws-architecture">Arquitectura AWS</button>
+                        <button type="button" data-open-view="aws-security">Seguridad AWS</button>
+                        <button type="button" data-open-view="aws-costs">Costes AWS</button>
+                        <button type="button" data-open-view="aws-doc">Documentación AWS</button>
+                        <button type="button" data-open-view="aws-continuous">Mejora continua</button>
+                    </div>
+                </div>
+
+                <div class="nav-drop-item">
+                    <button type="button" data-modal="hybrid">
+                        <span>Área 03</span>
+                        Infraestructura híbrida
+                    </button>
+                </div>
+
             </div>
         </div>
 

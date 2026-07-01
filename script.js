@@ -14,6 +14,11 @@ function openView(viewName) {
     modal.scrollTop = 0;
 }
 
+function openModalView(viewName) {
+    openModal();
+    openView(viewName);
+}
+
 function openModal(viewName) {
     lastFocus = document.activeElement;
     overlay.classList.add("is-open");
@@ -36,7 +41,15 @@ modalTriggers.forEach((trigger) => {
 });
 
 viewTriggers.forEach((trigger) => {
-    trigger.addEventListener("click", () => openView(trigger.dataset.openView));
+    trigger.addEventListener("click", () => {
+
+        if (!overlay.classList.contains("is-open")) {
+            openModalView(trigger.dataset.openView);
+        } else {
+            openView(trigger.dataset.openView);
+        }
+
+    });
 });
 
 closeTriggers.forEach((trigger) => trigger.addEventListener("click", closeModal));
