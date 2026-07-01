@@ -1,515 +1,308 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bru Monsó</title>
+    <title>Bru Monsó | Infraestructura IT, Cloud e Identidad</title>
+    <meta name="description" content="Portfolio de Bru Monsó: proyectos reales de infraestructura IT, AWS, Microsoft Entra ID, identidad, seguridad cloud y optimización de costes.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Bru Monsó | Infraestructura IT, Cloud e Identidad">
+    <meta property="og:description" content="Proyectos de infraestructura, cloud e identidad explicados desde el problema, las decisiones tomadas y el aprendizaje real.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.brumonso.com/">
+    <meta name="twitter:card" content="summary_large_image">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:wght@400;500;600&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="site-header">
-    <a class="logo" href="#">Bru Monsó</a>
-
-    <nav class="site-nav">
+<header class="site-header" data-reveal>
+    <a class="logo" href="#top" aria-label="Bru Monsó">Bru Monsó</a>
+    <nav class="site-nav" aria-label="Navegación principal">
         <a href="#mindset">Forma de trabajar</a>
         <a href="#projects">Proyectos</a>
         <a href="#contact">Contacto</a>
     </nav>
-
-    <div class="language">
-        <span>ES</span>
-        <span>/</span>
-        <span>EN</span>
+    <div class="language" aria-label="Selector de idioma">
+        <span>ES</span><span>/</span><span>EN</span>
     </div>
 </header>
 
-<main>
+<main id="top">
 
     <section class="hero">
         <div class="hero-inner">
-
-            <div class="hero-copy">
+            <div class="hero-copy" data-reveal>
                 <span class="eyebrow">Infraestructura IT & Cloud</span>
-
                 <h1>Proyectos de infraestructura, cloud e identidad.</h1>
-
                 <p class="hero-description">
-                    Trabajo en infraestructura IT con foco en cloud, identidad y automatización.
-                    Aquí explico proyectos en los que he participado: qué problema había,
-                    qué hice, qué decisiones tomé y qué aprendí durante el proceso.
+                    Trabajo en infraestructura IT con foco en cloud, identidad y automatización. Aquí explico proyectos en los que he participado: qué problema había, qué hice, qué decisiones tomé y qué aprendí durante el proceso.
                 </p>
-
                 <div class="hero-actions">
                     <a class="button button-dark" href="#projects">Ver proyectos</a>
                     <a class="button button-light" href="#contact">Contactar</a>
                 </div>
             </div>
 
-            <aside class="hero-note">
+            <aside class="hero-note" data-reveal>
                 <span>Idea base</span>
                 <p>Que funcione hoy no basta. Tiene que poder mantenerse mañana.</p>
             </aside>
-
         </div>
     </section>
 
     <section class="mindset" id="mindset">
-        <div class="section-meta">
+        <div class="section-meta" data-reveal>
             <span>01</span>
             <p>Forma de trabajar</p>
         </div>
 
         <div class="mindset-content">
-            <h2>No se trata solo de configurar servicios. Se trata de entender el problema y dejar una solución que tenga sentido.</h2>
-
-            <div class="mindset-list">
+            <h2 data-reveal>No se trata solo de configurar servicios. Se trata de entender el problema y dejar una solución que tenga sentido.</h2>
+            <div class="mindset-list stagger-list" data-stagger>
                 <article>
                     <span>01</span>
                     <h3>Ordenar el problema</h3>
-                    <p>
-                        Antes de empezar necesito tener claro qué hay, qué depende de qué y qué información falta.
-                        Si no entiendo el entorno, prefiero parar y aclararlo antes de avanzar.
-                    </p>
+                    <p>Antes de empezar necesito tener claro qué hay, qué depende de qué y qué información falta. Si no entiendo el entorno, prefiero parar y aclararlo antes de avanzar.</p>
                 </article>
-
                 <article>
                     <span>02</span>
                     <h3>Elegir una solución defendible</h3>
-                    <p>
-                        Casi siempre hay más de una forma de resolver lo mismo. Intento escoger una opción segura,
-                        mantenible y que pueda explicar después sin depender de magia ni parches raros.
-                    </p>
+                    <p>Casi siempre hay más de una forma de resolver lo mismo. Intento escoger una opción segura, mantenible y que pueda explicar después sin depender de magia ni parches raros.</p>
                 </article>
-
                 <article>
                     <span>03</span>
                     <h3>Dejar margen de vuelta atrás</h3>
-                    <p>
-                        Un proyecto no termina cuando funciona. Tiene que poder escalar, tener margen de vuelta atrás
-                        y quedar documentado para que dentro de unos meses siga teniendo sentido.
-                    </p>
+                    <p>Un proyecto no termina cuando funciona. Tiene que poder escalar, tener margen de vuelta atrás y quedar documentado para que dentro de unos meses siga teniendo sentido.</p>
                 </article>
             </div>
         </div>
     </section>
 
     <section class="placeholder-section" id="projects">
-        <div class="section-meta">
+        <div class="section-meta" data-reveal>
             <span>02</span>
             <p>Proyectos</p>
         </div>
 
         <div class="placeholder-content projects-preview">
-            <h2>Proyectos agrupados por el tipo de problema.</h2>
-
-            <div class="project-list">
-
+            <h2 data-reveal>Proyectos agrupados por el tipo de problema.</h2>
+            <div class="project-list" data-stagger>
                 <article class="project-card" data-modal="entra">
                     <span>Área 01</span>
                     <h3>Gobierno de identidades con Microsoft Entra ID</h3>
-                    <p>
-                        SSO, identidades híbridas, grupos dinámicos, acceso condicional, B2B y gobierno de aplicaciones.
-                    </p>
-                    <button class="project-link">Ver proyectos →</button>
+                    <p>SSO, identidades híbridas, grupos dinámicos, acceso condicional, B2B y gobierno de aplicaciones.</p>
+                    <button class="project-link" type="button">Ver proyectos →</button>
                 </article>
-
                 <article class="project-card" data-modal="aws">
                     <span>Área 02</span>
                     <h3>Gobierno, seguridad y optimización cloud</h3>
-                    <p>
-                        AWS, costes, IAM, S3, backups, auditoría, seguridad y mejora continua de infraestructura cloud.
-                    </p>
-                    <button class="project-link">Ver proyectos →</button>
+                    <p>AWS, costes, IAM, S3, backups, auditoría, seguridad y mejora continua de infraestructura cloud.</p>
+                    <button class="project-link" type="button">Ver proyectos →</button>
                 </article>
-
                 <article class="project-card" data-modal="hybrid">
                     <span>Área 03</span>
                     <h3>Infraestructura híbrida</h3>
-                    <p>
-                        Convivencia entre sistemas internos, Active Directory, Entra ID, redes, servidores y cloud.
-                    </p>
-                    <button class="project-link">Ver proyectos →</button>
+                    <p>Convivencia entre sistemas internos, Active Directory, Entra ID, redes, servidores y cloud.</p>
+                    <button class="project-link" type="button">Ver área →</button>
                 </article>
-
             </div>
         </div>
     </section>
 
     <section class="placeholder-section contact-section" id="contact">
-        <div class="section-meta">
+        <div class="section-meta" data-reveal>
             <span>03</span>
             <p>Contacto</p>
         </div>
-
         <div class="placeholder-content contact-content">
-            <h2>Si has llegado hasta aquí, ya tienes una idea bastante clara de lo que he hecho y cómo trabajo.</h2>
-
-            <p>
-                Puedes escribirme para hablar sobre infraestructura, cloud, identidad o proyectos donde creas
-                que puedo aportar. Mejor por escrito, así puedo revisar bien el contexto.
-            </p>
-
-            <div class="contact-links">
-
+            <h2 data-reveal>Si has llegado hasta aquí, ya tienes una idea bastante clara de lo que he hecho y cómo trabajo.</h2>
+            <p data-reveal>Puedes escribirme para hablar sobre infraestructura, cloud, identidad o proyectos donde creas que puedo aportar. Mejor por escrito, así puedo revisar bien el contexto.</p>
+            <div class="contact-links" data-stagger>
                 <a class="contact-card" href="https://www.linkedin.com/in/bru-monso" target="_blank" rel="noopener noreferrer">
-                    <span>LinkedIn</span>
-                    <strong>Perfil profesional</strong>
-                    <small>linkedin.com/in/bru-monso</small>
-                    <em>↗</em>
+                    <span>LinkedIn</span><strong>Perfil profesional</strong><small>linkedin.com/in/bru-monso</small><em>↗</em>
                 </a>
-
-                <!--
-                <a class="contact-card" href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">
-                    <span>GitHub</span>
-                    <strong>Laboratorio personal</strong>
-                    <small>
-                        Proyectos personales, laboratorios y pruebas relacionadas
-                        con cloud, infraestructura y automatización.
-                    </small>
-                    <em>↗</em>
-                </a>
-                -->
-
                 <a class="contact-card" href="mailto:brumonsobatlles@gmail.com">
-                    <span>Correo</span>
-                    <strong>Contacto directo</strong>
-                    <small>brumonsobatlles@gmail.com</small>
-                    <em>↗</em>
+                    <span>Correo</span><strong>Contacto directo</strong><small>brumonsobatlles@gmail.com</small><em>↗</em>
                 </a>
-
             </div>
         </div>
     </section>
 
     <div class="case-overlay" id="caseOverlay" aria-hidden="true">
         <div class="case-backdrop" data-close-modal></div>
+        <article class="case-modal" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="caseTitle">
+            <button class="case-close" data-close-modal aria-label="Cerrar">×</button>
 
-        <article class="case-modal" id="caseModal">
-            <button class="case-close" data-close-modal>×</button>
-
-            <!-- ÁREA 01 — MICROSOFT ENTRA ID -->
             <div class="case-view case-view-active" data-view="entra">
                 <span class="case-kicker">Área 01</span>
-
-                <h2>Gobierno de identidades con Microsoft Entra ID</h2>
-
+                <h2 id="caseTitle">Gobierno de identidades con Microsoft Entra ID</h2>
                 <section>
                     <h3>Contexto</h3>
-                    <p>
-                        Microsoft Entra ID ya formaba parte de la infraestructura, pero todavía había margen para
-                        ordenar mejor la gestión de identidades, accesos y aplicaciones empresariales.
-                    </p>
-                    <p>
-                        Esta área reúne proyectos relacionados con identidad, acceso a aplicaciones y gobierno de identidades mediante Microsoft Entra ID.
-                    </p>
+                    <p>Microsoft Entra ID se ha convertido en una pieza clave para centralizar autenticación, ordenar identidades y gestionar accesos de una forma más limpia.</p>
+                    <p>Esta área reúne proyectos relacionados con SSO, ciclo de vida de identidades, Conditional Access y colaboración externa mediante Entra B2B.</p>
                 </section>
-
-                <section>
-                    <h3>Retos</h3>
-                    <ul>
-                        <li>Centralizar el acceso a aplicaciones empresariales.</li>
-                        <li>Mejorar la calidad de las identidades sincronizadas.</li>
-                        <li>Reducir tareas manuales mediante grupos dinámicos.</li>
-                        <li>Aplicar políticas de seguridad de forma más controlada.</li>
-                        <li>Gestionar colaboración externa sin perder gobierno del acceso.</li>
-                        <li>Preparar el entorno para capacidades futuras como PIM.</li>
-                    </ul>
-                </section>
-
                 <section>
                     <h3>Proyectos destacados</h3>
-
                     <div class="case-chapters">
-                        <button data-open-view="sso">
-                            <span>01</span>
-                            Integración SSO con SAML
-                        </button>
-
-                        <button disabled>
-                            <span>02</span>
-                            Clasificación y sincronización de identidades híbridas
-                        </button>
-
-                        <button disabled>
-                            <span>03</span>
-                            Automatización mediante grupos dinámicos
-                        </button>
-
-                        <button disabled>
-                            <span>04</span>
-                            Conditional Access y acceso seguro
-                        </button>
-
-                        <button disabled>
-                            <span>05</span>
-                            Colaboración externa mediante usuarios B2B
-                        </button>
-
-                        <button disabled>
-                            <span>06</span>
-                            Gobierno de aplicaciones empresariales
-                        </button>
+                        <button data-open-view="entra-sso"><span>01</span>Integración SSO mediante SAML</button>
+                        <button data-open-view="entra-lifecycle"><span>02</span>Gobierno del ciclo de vida de identidades híbridas</button>
+                        <button data-open-view="entra-ca"><span>03</span>Protección del acceso mediante Conditional Access</button>
+                        <button data-open-view="entra-b2b"><span>04</span>Colaboración externa mediante Microsoft Entra B2B</button>
                     </div>
                 </section>
-
-                <section>
-                    <h3>Próximos pasos</h3>
-                    <p>
-                        Implementar PIM, terminar la integración con AWS IAM Identity Center y seguir evolucionando
-                        el modelo de gobierno de identidades.
-                    </p>
-                </section>
             </div>
 
-            <!-- CASO 01 — SSO -->
-            <div class="case-view" data-view="sso">
-                <button class="case-back" data-open-view="entra">← Volver</button>
-
-                <span class="case-kicker">Proyecto 01</span>
-                <h2>Integración de aplicaciones empresariales mediante Single Sign-On (SAML)</h2>
-
-                <section>
-                    <h3>Contexto</h3>
-                    <p>
-                        A medida que Microsoft Entra ID fue adquiriendo un papel central dentro de la infraestructura,
-                        surgió la necesidad de integrar distintas aplicaciones empresariales mediante Single Sign-On.
-                    </p>
-                    <p>
-                        El objetivo era centralizar la autenticación, simplificar la gestión de usuarios y aprovechar
-                        políticas de seguridad ya existentes como MFA, Conditional Access o la gestión basada en grupos.
-                    </p>
-                    <p>
-                        Durante este proceso participé en varias integraciones utilizando SAML, colaborando inicialmente
-                        en Statista y realizando posteriormente de forma autónoma la integración de Sigma, AXES y la
-                        preparación de AWS IAM Identity Center.
-                    </p>
-                </section>
-
-                <section>
-                    <h3>Qué hice</h3>
-                    <p>
-                        Cada aplicación requería una configuración diferente, así que antes de configurarla era necesario
-                        entender cómo esperaba autenticarse cada proveedor y qué información necesitaba recibir desde
-                        Microsoft Entra ID.
-                    </p>
-
-                    <ul>
-                        <li>Configuración de Enterprise Applications en Microsoft Entra ID.</li>
-                        <li>Intercambio de metadata XML y certificados con proveedores.</li>
-                        <li>Configuración de autenticación SAML.</li>
-                        <li>Definición de claims, atributos de usuario y NameID.</li>
-                        <li>Configuración de grupos dinámicos para automatizar la asignación de acceso.</li>
-                        <li>Validación funcional junto con proveedores y usuarios finales.</li>
-                        <li>Puesta en producción de las integraciones.</li>
-                    </ul>
-
-                    <p>
-                        En Sigma, además, diseñé grupos dinámicos para separar automáticamente profesores y alumnos,
-                        ya que ambos colectivos acceden a aplicaciones diferentes utilizando el mismo proveedor de identidad.
-                    </p>
-
-                    <p>
-                        La integración con AWS IAM Identity Center quedó preparada desde Microsoft Entra ID, quedando
-                        pendiente únicamente la configuración final dentro de AWS Organizations por limitaciones de la
-                        cuenta actual.
-                    </p>
-                </section>
-
-                <section>
-                    <h3>Lo más interesante</h3>
-                    <p>
-                        La parte más compleja no fue la configuración técnica de SAML, sino entender cómo funciona
-                        realmente el proceso de autenticación entre Microsoft Entra ID y cada aplicación.
-                    </p>
-                    <p>
-                        Cada proveedor interpreta de forma diferente aspectos como los atributos, los claims, el NameID
-                        o los certificados. Eso obligó a entender la lógica de cada integración antes de configurarla bien.
-                    </p>
-                    <p>
-                        Ese cambio de mentalidad fue importante: dejar de seguir documentación paso a paso y empezar
-                        a entender cómo diseñar este tipo de integraciones.
-                    </p>
-                </section>
-
-                <section>
-                    <h3>Qué aprendí</h3>
-                    <p>
-                        Este proyecto me permitió comprender mejor el funcionamiento de SAML y el papel de Microsoft Entra ID
-                        como proveedor de identidad.
-                    </p>
-                    <p>
-                        También entendí la importancia de los atributos sincronizados desde Active Directory, los grupos
-                        dinámicos y la relación entre autenticación, autorización y gobierno de identidades.
-                    </p>
-                    <p>
-                        Una buena integración no termina cuando un usuario inicia sesión. Tiene que facilitar la administración
-                        futura y permitir aplicar de forma centralizada medidas de seguridad como MFA, Conditional Access o,
-                        próximamente, Privileged Identity Management.
-                    </p>
-                </section>
-
-                <section>
-                    <h3>Resultado</h3>
-                    <p>
-                        Actualmente varias aplicaciones empresariales utilizan Microsoft Entra ID como proveedor de identidad,
-                        reduciendo la gestión manual de credenciales y facilitando una administración más centralizada del
-                        acceso a las aplicaciones.
-                    </p>
-                    <p>
-                        Más allá de cada integración individual, este proyecto sentó las bases para seguir evolucionando el modelo
-                        de identidad de la organización y afrontar futuras implantaciones de forma más sencilla.
-                    </p>
-                </section>
-            </div>
-
-            <!-- ÁREA 02 — AWS / CLOUD -->
             <div class="case-view" data-view="aws">
                 <span class="case-kicker">Área 02</span>
-
                 <h2>Gobierno, seguridad y optimización cloud</h2>
-
                 <section>
                     <h3>Contexto</h3>
-                    <p>
-                        Trabajar en cloud no es solo desplegar servicios. También implica revisar seguridad,
-                        costes, accesos, backups y operación diaria para que el entorno sea mantenible.
-                    </p>
-                    <p>
-                        Aquí agrupo proyectos relacionados con AWS, seguridad, optimización de costes y evolución de infraestructuras cloud.
-                    </p>
+                    <p>Trabajar en AWS no es solo desplegar servicios. También implica revisar seguridad, costes, accesos, backups y operación diaria para que el entorno sea mantenible.</p>
+                    <p>Esta área reúne los proyectos principales de AWS, explicados desde el problema real, las decisiones tomadas y el aprendizaje que dejó cada uno.</p>
                 </section>
-
-                <section>
-                    <h3>Retos</h3>
-                    <ul>
-                        <li>Administrar infraestructura AWS existente sin tratarla como un entorno de laboratorio.</li>
-                        <li>Analizar hallazgos de auditoría y convertirlos en un plan técnico accionable.</li>
-                        <li>Mejorar el acceso a servidores reduciendo dependencia de SSH e IPs públicas.</li>
-                        <li>Revisar IAM, usuarios, roles, MFA, access keys y principio de mínimo privilegio.</li>
-                        <li>Detectar oportunidades de optimización de costes sin vender humo ni hablar solo de números.</li>
-                        <li>Diseñar una base más clara de backups, versionado, lifecycle y recuperación.</li>
-                    </ul>
-                </section>
-
                 <section>
                     <h3>Proyectos destacados</h3>
-
                     <div class="case-chapters">
-                        <button disabled>
-                            <span>01</span>
-                            Infraestructura AWS para AXES
-                        </button>
-
-                        <button disabled>
-                            <span>02</span>
-                            Roadmap de seguridad Cloud tras auditoría
-                        </button>
-
-                        <button disabled>
-                            <span>03</span>
-                            Acceso seguro mediante AWS Systems Manager
-                        </button>
-
-                        <button disabled>
-                            <span>04</span>
-                            Gobierno IAM y principio de mínimo privilegio en AWS
-                        </button>
-
-                        <button disabled>
-                            <span>05</span>
-                            Optimización Cloud y análisis de costes
-                        </button>
-
-                        <button disabled>
-                            <span>06</span>
-                            Protección de datos en AWS: backups, S3 y lifecycle
-                        </button>
+                        <button data-open-view="aws-architecture"><span>01</span>Diseño e implementación de una arquitectura AWS</button>
+                        <button data-open-view="aws-security"><span>02</span>Mejora de la seguridad en AWS</button>
+                        <button data-open-view="aws-costs"><span>03</span>Análisis y optimización de costes</button>
+                        <button data-open-view="aws-doc"><span>04</span>Análisis y documentación de infraestructura</button>
+                        <button data-open-view="aws-continuous"><span>05</span>Mejora continua de infraestructura</button>
                     </div>
-                </section>
-
-                <section>
-                    <h3>Próximos pasos</h3>
-                    <p>
-                        Evolucionar el entorno hacia un modelo más gobernado con AWS IAM Identity Center, Organizations,
-                        SCP, Security Hub, GuardDuty, Systems Manager y una estrategia más clara de automatización.
-                    </p>
                 </section>
             </div>
 
-            <!-- ÁREA 03 — INFRAESTRUCTURA HÍBRIDA -->
             <div class="case-view" data-view="hybrid">
                 <span class="case-kicker">Área 03</span>
-
                 <h2>Infraestructura híbrida</h2>
-
                 <section>
                     <h3>Contexto</h3>
-                    <p>
-                        En muchos entornos reales conviven Active Directory, Entra ID, servidores Windows y Linux,
-                        VMware, redes, firewalls, VPN y aplicaciones corporativas que tienen que seguir funcionando
-                        mientras la infraestructura evoluciona.
-                    </p>
-                    <p>
-                        Este bloque reúne proyectos donde la infraestructura local y la nube conviven para ofrecer un entorno único, desde redes y servidores hasta servicios corporativos.
-                    </p>
+                    <p>En muchos entornos reales conviven Active Directory, Entra ID, servidores Windows y Linux, VMware, redes, firewalls, VPN y aplicaciones corporativas que tienen que seguir funcionando mientras la infraestructura evoluciona.</p>
+                    <p>Esta área queda preparada para añadir proyectos de infraestructura híbrida más adelante.</p>
                 </section>
-
                 <section>
-                    <h3>Retos</h3>
-                    <ul>
-                        <li>Entender dependencias entre sistemas antes de modificar nada.</li>
-                        <li>Mantener servicios internos funcionando mientras se introducen mejoras.</li>
-                        <li>Conectar identidad local, Entra ID, redes y servicios cloud de forma ordenada.</li>
-                        <li>Resolver incidencias reales de infraestructura sin perder visión global del entorno.</li>
-                        <li>Administrar sistemas corporativos que dependen tanto de software como de hardware.</li>
-                        <li>Documentar y dejar las soluciones preparadas para que puedan mantenerse después.</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3>Proyectos destacados</h3>
-
-                    <div class="case-chapters">
-                        <button disabled>
-                            <span>01</span>
-                            Integración entre infraestructura local y cloud
-                        </button>
-
-                        <button disabled>
-                            <span>02</span>
-                            Administración de infraestructura corporativa
-                        </button>
-
-                        <button disabled>
-                            <span>03</span>
-                            Sistemas corporativos: BioStar2, 3CX y control de accesos
-                        </button>
-                    </div>
-                </section>
-
-                <section>
-                    <h3>Próximos pasos</h3>
-                    <p>
-                        Seguir conectando la operación diaria de infraestructura con una visión más cloud, automatizada
-                        y documentada, sin perder de vista los sistemas que ya existen y que tienen que seguir funcionando.
-                    </p>
+                    <h3>Estado</h3>
+                    <p class="case-empty">Proyectos pendientes de añadir.</p>
                 </section>
             </div>
 
+            <!-- ENTRA PROJECTS -->
+            <div class="case-view" data-view="entra-sso">
+                <button class="case-back" data-open-view="entra">← Volver a Entra ID</button>
+                <span class="case-kicker">Proyecto 01 · Entra ID</span>
+                <h2>Integración de aplicaciones empresariales mediante Single Sign-On (SAML)</h2>
+                <section><h3>Contexto</h3><p>Algunas aplicaciones seguían dependiendo de la red interna para poder utilizarse con normalidad.</p><p>En el caso de Statista, por ejemplo, desde casa era necesario conectarse mediante VPN para acceder al servicio, algo que generaba bastantes incidencias y hacía que el acceso no fuera tan cómodo como debía.</p><p>Decidimos aprovechar Microsoft Entra ID para centralizar la autenticación y que los usuarios pudieran acceder directamente con su cuenta corporativa, independientemente de dónde estuvieran.</p><p>Lo que empezó siendo una integración para Statista acabó convirtiéndose en una forma completamente distinta de integrar aplicaciones. Después llegaron Sigma, AXES y la preparación de AWS IAM Identity Center.</p></section>
+                <section><h3>Qué hice</h3><p>Al principio pensaba que todas las integraciones SAML serían más o menos iguales.</p><p>Me equivoqué.</p><p>Aunque todas utilizaban SAML, ninguna esperaba exactamente lo mismo. Cambiaban los atributos, los certificados o pequeños detalles que hacían que una integración funcionara o no.</p><p>Antes de configurar nada intentaba entender cómo quería autenticarse cada aplicación. Cuando esa parte estaba clara preparaba la Enterprise Application en Microsoft Entra ID, configuraba SAML, intercambiaba los metadatos con el proveedor, revisaba los atributos necesarios y realizaba las pruebas antes de pasar la integración a producción.</p><p>En Sigma, además, aproveché para separar automáticamente profesores y alumnos mediante grupos dinámicos, ya que ambos colectivos necesitaban acceder a aplicaciones distintas utilizando la misma autenticación.</p><p>También dejé preparada la integración con AWS IAM Identity Center desde Microsoft Entra ID, pendiente únicamente de completar la configuración dentro de AWS Organizations.</p></section>
+                <section><h3>Lo más interesante</h3><p>Creo que este fue el proyecto donde realmente entendí cómo funciona SAML.</p><p>Al principio pensaba que todo consistía en intercambiar un XML, configurar un certificado y poco más.</p><p>El cambio llegó cuando empezaron a aparecer los primeros problemas y me tocó resolverlos.</p><p>Fue ahí cuando entendí qué información viajaba realmente entre Microsoft Entra ID y la aplicación, por qué eran tan importantes los atributos y por qué los certificados tenían un papel clave durante todo el proceso de autenticación.</p><p>A partir de ese momento dejé de seguir la documentación paso a paso y empecé a entender el porqué de cada configuración.</p></section>
+                <section><h3>Qué aprendí</h3><p>Este proyecto cambió bastante mi forma de ver la gestión de identidades.</p><p>Dejé de pensar en aplicaciones individuales y empecé a pensar en una identidad sobre la que todas ellas pudieran apoyarse.</p><p>Cuando terminé las primeras integraciones no pensé: “Ya sé hacer SAML.”</p><p>Pensé: “Ahora que entiendo cómo funciona… ¿dónde más podemos aprovecharlo?”</p><p>Y fue precisamente ahí donde empezó a aparecer siempre el mismo problema.</p><p>Cuantas más aplicaciones integraba, más evidente era que la identidad de los usuarios necesitaba estar mucho mejor organizada. Si quería seguir reutilizando esa misma identidad en nuevas aplicaciones, primero tenía que dejar de adaptar el directorio a cada integración.</p><p>Ese fue el punto de partida del siguiente proyecto.</p></section>
+                <section><h3>Resultado</h3><p>Actualmente varias aplicaciones utilizan Microsoft Entra ID para centralizar la autenticación y aplicar las mismas políticas de acceso y seguridad.</p><p>Pero, mirando atrás, creo que lo más importante no fue integrar esas aplicaciones.</p><p>Fue entender que el verdadero trabajo no estaba solo en conectar aplicaciones, sino en construir una identidad lo suficientemente bien organizada como para que todas ellas pudieran apoyarse sobre ella.</p></section>
+                <div class="tag-list"><span>Microsoft Entra ID</span><span>SAML</span><span>SSO</span><span>Enterprise Applications</span><span>Claims</span><span>Certificates</span><span>Dynamic Groups</span><span>AWS IAM Identity Center</span><span>Identity</span></div>
+            </div>
+
+            <div class="case-view" data-view="entra-lifecycle">
+                <button class="case-back" data-open-view="entra">← Volver a Entra ID</button>
+                <span class="case-kicker">Proyecto 02 · Entra ID</span>
+                <h2>Gobierno del ciclo de vida de identidades híbridas</h2>
+                <section><h3>Contexto</h3><p>Mientras iba integrando nuevas aplicaciones con Microsoft Entra ID mediante Single Sign-On me encontré siempre con el mismo punto.</p><p>Cada vez que quería dar acceso a una aplicación nueva acababa teniendo que crear scripts, añadir atributos o preparar automatizaciones específicas en el LDAP solo para que esa aplicación pudiera funcionar correctamente.</p><p>No era porque Microsoft Entra ID tuviera ninguna limitación. Era porque la información de origen todavía no estaba lo suficientemente organizada como para reutilizarla en todos los proyectos.</p><p>El sistema funcionaba y llevábamos años trabajando así. Pero cuanto más avanzaba con Microsoft Entra ID, más claro veía que, si quería seguir construyendo sobre una buena base, primero tenía que ordenar la identidad de los usuarios.</p><p>Decidí parar ahí antes de seguir con nuevos proyectos.</p></section>
+                <section><h3>Qué hice</h3><p>Lo primero fue entender de dónde tenía que salir realmente la información.</p><p>Había varios sistemas implicados, pero tenía claro que solo uno debía marcar el estado real de cada usuario. A partir de esa idea diseñé un modelo de clasificación que permitiera representar automáticamente la situación de cada identidad dentro del directorio.</p><p>Antes de escribir una sola línea de PowerShell dediqué bastante tiempo a pensar cómo quería que funcionara el sistema, qué casos podían aparecer y cómo quería resolverlos. Esa parte llevó mucho más trabajo que la propia automatización.</p><p>Cuando tuve el modelo claro desarrollé los scripts para clasificar los usuarios, sincronizar esa información con el directorio y dejar preparada la base sobre la que seguir construyendo el resto de proyectos de identidad.</p><p>Como el directorio contenía cerca de 18.000 usuarios preferí ser especialmente conservador antes de ejecutar ningún cambio. Preparé un modo DRY RUN, validaciones, límites máximos de modificaciones por ejecución, aplicación por bloques y registros de auditoría para poder revisar cada paso antes de llevarlo a producción.</p></section>
+                <section><h3>Lo más interesante</h3><p>Curiosamente, escribir los scripts fue casi la parte más sencilla.</p><p>Lo complicado fue decidir cómo debía comportarse el sistema.</p><p>Había situaciones que no eran tan evidentes: usuarios antiguos, cuentas especiales o casos que no podían resolverse simplemente consultando una base de datos.</p><p>Ese fue el momento en el que dejé de pensar en “hacer un script” y empecé a pensar en cómo diseñar un sistema que pudiera seguir teniendo sentido dentro de unos años.</p></section>
+                <section><h3>Qué aprendí</h3><p>Este proyecto me hizo cambiar bastante la forma de afrontar los proyectos de identidad.</p><p>Entendí que muchas veces el trabajo no consiste en automatizar más, sino en dedicar tiempo a ordenar aquello sobre lo que vas a automatizar después.</p><p>Desde entonces intento seguir la misma idea siempre que empiezo un proyecto: si la base no está bien organizada, prefiero parar primero y arreglarla antes de seguir construyendo encima.</p></section>
+                <section><h3>Resultado</h3><p>La clasificación todavía seguirá evolucionando junto con los siguientes proyectos de identidad, pero ya existe una base preparada para reutilizar esa información en lugar de tener que resolver el mismo problema cada vez que aparece una aplicación nueva.</p><p>A partir de aquí ya es posible construir grupos dinámicos, automatizar licencias, controlar accesos o seguir integrando aplicaciones sin tener que crear soluciones específicas para cada una de ellas.</p><p>Mirando atrás, creo que este proyecto no iba realmente de clasificar usuarios. Iba de dejar de adaptar el directorio a cada proyecto y empezar a hacer que los proyectos pudieran apoyarse sobre un directorio bien organizado.</p></section>
+                <div class="tag-list"><span>Microsoft Entra ID</span><span>Active Directory</span><span>LDAP</span><span>PowerShell</span><span>Identity Lifecycle</span><span>Hybrid Identity</span><span>Dynamic Groups</span><span>Automation</span><span>Dry Run</span><span>Audit Logs</span></div>
+            </div>
+
+            <div class="case-view" data-view="entra-ca">
+                <button class="case-back" data-open-view="entra">← Volver a Entra ID</button>
+                <span class="case-kicker">Proyecto 03 · Entra ID</span>
+                <h2>Protección del acceso mediante Conditional Access</h2>
+                <section><h3>Contexto</h3><p>Mientras revisaba la configuración de Microsoft Entra ID encontré una cosa que no me acababa de convencer.</p><p>Legacy Authentication seguía habilitado.</p><p>Eso significaba que todavía existían formas de iniciar sesión sin pasar por MFA.</p><p>No tenía mucho sentido mantener esa configuración. Era como cerrar la puerta de casa y dejar una ventana abierta.</p></section>
+                <section><h3>Qué hice</h3><p>Antes de bloquearlo quería asegurarme de que no íbamos a romper ninguna aplicación ni ningún servicio que todavía dependiera de esos protocolos.</p><p>Por eso preferí dejar la política una semana en Report Only antes de activarla.</p><p>Durante esos días revisé los Sign-in Logs, los informes de Conditional Access y todos los intentos de autenticación para comprobar que el cambio podía aplicarse sin afectar a producción.</p><p>Cuando vi que todo estaba correcto activamos el bloqueo de Legacy Authentication.</p><p>Aproveché también para revisar el resto de políticas y deshabilité una que ya no tenía utilidad, dejándola así por precaución hasta confirmar que no pertenecía a alguna prueba anterior.</p></section>
+                <section><h3>Lo más interesante</h3><p>Configurar la política fue lo de menos.</p><p>Lo importante era tener claro que no íbamos a romper nada.</p><p>Lo mejor fue poder validar el cambio antes de tocar producción. Después de una semana en Report Only ya sabía que podía activar la política con tranquilidad porque había comprobado que no afectaba a ninguna aplicación ni a ningún usuario.</p></section>
+                <section><h3>Qué aprendí</h3><p>Este proyecto me hizo darme cuenta de que no basta con activar una medida de seguridad y olvidarte de ella.</p><p>Hay que comprobar que realmente hace lo que esperas.</p><p>En este caso la pregunta era muy sencilla:</p><p>Si alguien intenta iniciar sesión, ¿está obligado a pasar por MFA?</p><p>Si la respuesta no es sí, todavía queda trabajo por hacer.</p></section>
+                <section><h3>Resultado</h3><p>Legacy Authentication quedó bloqueado sin afectar al funcionamiento de las aplicaciones existentes.</p><p>Fue un cambio pequeño, pero me dejó con la tranquilidad de saber que, si un usuario inicia sesión, tendrá que pasar por MFA.</p></section>
+                <div class="tag-list"><span>Microsoft Entra ID</span><span>Conditional Access</span><span>Legacy Authentication</span><span>MFA</span><span>Report Only</span><span>Sign-in Logs</span><span>Access Security</span></div>
+            </div>
+
+            <div class="case-view" data-view="entra-b2b">
+                <button class="case-back" data-open-view="entra">← Volver a Entra ID</button>
+                <span class="case-kicker">Proyecto 04 · Entra ID</span>
+                <h2>Colaboración externa mediante Microsoft Entra B2B</h2>
+                <section><h3>Contexto</h3><p>No veía mucho sentido a crear una cuenta en nuestro tenant EntraID para alguien que ni siquiera trabajaba en la organización.</p><p>Aun así, era la forma habitual de dar acceso a colaboradores y empresas externas.</p><p>Con el tiempo esas cuentas se iban quedando en el directorio y cada vez era más difícil saber quién era realmente cada una, si seguían utilizándose o si podían eliminarse.</p></section>
+                <section><h3>Qué hice</h3><p>Empecé a utilizar Microsoft Entra B2B para invitar a colaboradores externos sin necesidad de crearles una cuenta corporativa. Cada uno accedía con la suya y yo dejaba de gestionar una cuenta más dentro del directorio.</p><p>Siempre intento empezar dando el mínimo acceso posible. Si durante el proyecto hace falta ampliar permisos, siempre hay tiempo de hacerlo después.</p><p>Cuando el acceso era temporal, acordábamos una fecha aproximada para revisarlo o retirarlo y evitar que esos permisos se quedaran activos más tiempo del necesario.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo que más me gustó fue mantener el directorio mucho más ordenado sin crear cuentas que realmente no hacían falta.</p><p>En pocos minutos podía dar acceso a un colaborador externo sin crear usuarios internos y manteniendo mucho mejor organizado el entorno.</p></section>
+                <section><h3>Qué aprendí</h3><p>Este proyecto reforzó una forma de trabajar que intento aplicar siempre.</p><p>Prefiero empezar dando menos permisos e ir ampliándolos si realmente hacen falta.</p><p>Hacerlo al revés casi siempre acaba generando problemas.</p></section>
+                <section><h3>Resultado</h3><p>Los colaboradores externos dejaron de tener una cuenta interna y pasaron a acceder utilizando la suya propia.</p><p>Con eso el directorio quedó mucho más limpio y resultó mucho más sencillo saber quién tenía acceso, por qué lo tenía y cuándo tocaba revisarlo.</p></section>
+                <div class="tag-list"><span>Microsoft Entra ID</span><span>Entra B2B</span><span>External Users</span><span>Least Privilege</span><span>Access Review</span><span>Identity Governance</span></div>
+            </div>
+
+            <!-- AWS PROJECTS -->
+            <div class="case-view" data-view="aws-architecture">
+                <button class="case-back" data-open-view="aws">← Volver a AWS</button>
+                <span class="case-kicker">Proyecto 01 · AWS</span>
+                <h2>Diseño e implementación de una arquitectura AWS para una nueva aplicación</h2>
+                <section><h3>Contexto</h3><p>Nos pasaron una serie de requisitos para desplegar una nueva aplicación en AWS. A partir de ahí teníamos que decidir cómo montar la primera versión de la infraestructura y dejar un entorno de PRE listo para que el equipo pudiera empezar a trabajar.</p><p>Había varias opciones y teníamos que decidir cuál encajaba mejor con lo que necesitaba el proyecto en ese momento, pensando también en cómo podría evolucionar más adelante.</p></section>
+                <section><h3>Qué hice</h3><p>Fui llevando el proyecto junto con AXES, desde las primeras reuniones para entender qué necesitaban hasta dejar el entorno funcionando.</p><p>Fuimos revisando las distintas opciones hasta decidir qué arquitectura tenía más sentido para esta primera versión.</p><p>Desde el principio tuvimos claro que no hacía falta montar una infraestructura más compleja de la necesaria. Como era una primera versión, preferimos empezar con una base sencilla sobre EC2, preparada para evolucionar más adelante hacia Docker y un proceso de CI/CD cuando el proyecto lo necesitara.</p><p>Otro punto importante era cómo gestionar los usuarios de la aplicación. Después de revisar las opciones que teníamos, decidimos utilizar Amazon Cognito porque era la opción que mejor encajaba con lo que necesitaba el proyecto.</p><p>Una vez definida la arquitectura, fuimos implementándola junto con el equipo de AXES, validando cada parte hasta dejar el entorno listo para que pudieran desplegar la aplicación y empezar a trabajar.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo que más me gustó de este proyecto fue darme cuenta de que diseñar una infraestructura no consiste en elegir servicios de AWS.</p><p>Al final, lo importante es entender qué necesita la aplicación y buscar la mejor forma de montarlo. Cuando eso está claro, las decisiones técnicas salen mucho más naturales.</p></section>
+                <section><h3>Qué aprendí</h3><p>Hasta ese momento siempre había trabajado con laboratorios y entornos de prueba. Este fue el primer proyecto en el que participé en el diseño y la implementación de una infraestructura para una aplicación real.</p><p>Cuando terminamos de validar el entorno y vimos que podían acceder a las instancias mediante Systems Manager, desplegar la aplicación y utilizarla con normalidad, me di cuenta de que la parte complicada no era entrar en la consola de AWS. Lo complicado era entender bien qué necesitaba la aplicación y tomar buenas decisiones desde el principio.</p><p>Fue el proyecto que me dio la confianza para darme cuenta de que sí era capaz de diseñar e implementar una infraestructura en AWS. Ahí pensé: “Pues sí que puedo.”</p></section>
+                <section><h3>Resultado</h3><p>El proyecto terminó con un entorno de PRE completamente operativo y preparado para seguir evolucionando conforme crecieran las necesidades de la aplicación.</p><p>Este proyecto me confirmó que, cuando entiendes bien qué necesita una aplicación, montar la infraestructura deja de ser lo difícil. Lo realmente importante es tomar buenas decisiones desde el principio.</p></section>
+                <div class="tag-list"><span>AWS</span><span>EC2</span><span>Cognito</span><span>Systems Manager</span><span>PRE</span><span>Docker</span><span>CI/CD</span><span>Cloud Architecture</span></div>
+            </div>
+
+            <div class="case-view" data-view="aws-security">
+                <button class="case-back" data-open-view="aws">← Volver a AWS</button>
+                <span class="case-kicker">Proyecto 02 · AWS</span>
+                <h2>Mejora de la seguridad en AWS</h2>
+                <section><h3>Contexto</h3><p>Nos hicieron un análisis de la infraestructura que teníamos en AWS y detectaron varios puntos de mejora relacionados con identidad, accesos, red y seguridad.</p><p>Había recomendaciones que eran bastante directas y otras que primero necesitaban pensarse un poco más porque iban a afectar al resto de decisiones.</p></section>
+                <section><h3>Qué hice</h3><p>Lo primero fue revisar toda la auditoría y clasificar las recomendaciones según su criticidad.</p><p>No quería ir resolviendo problemas uno detrás de otro sin más. Prefería entender primero qué problema tenía delante y, a partir de ahí, buscar la solución que mejor encajara con nuestra infraestructura.</p><p>Uno de los primeros puntos fue la identidad. Si ya utilizábamos Microsoft Entra ID para gestionar los usuarios de la organización, no veía mucho sentido a seguir manteniendo usuarios IAM y Access Keys en AWS. Después de revisar las distintas opciones, vi que lo más lógico era aprovechar esa misma identidad también para acceder a AWS mediante Single Sign-On.</p><p>Otro de los problemas era el acceso a las instancias. Más que SSH en sí, lo que no me convencía era todo lo que dependía de él: mantener IP públicas, depender de una VPN para acceder o gestionar claves manualmente. Después de darle varias vueltas, la opción que más sentido tenía era dejar de depender de SSH y utilizar AWS Systems Manager.</p><p>Mientras seguía revisando el resto de recomendaciones me di cuenta de que muchas dependían de una misma decisión. No quería seguir haciendo cambios sabiendo que probablemente habría que rehacer parte del trabajo después. Antes necesitábamos tener clara esa base y decidir cómo queríamos organizar AWS.</p><p>Con todo ese análisis preparé una propuesta con el orden en el que, para mí, tenía sentido abordar cada mejora.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo complicado no era encontrar una solución, sino decidir cuál tenía más sentido para nuestro caso y cómo iba a afectar al resto de decisiones.</p><p>Ahí me di cuenta de que disfruto mucho más analizando problemas, comparando alternativas e intentando que todo encaje antes de empezar a implementar cambios.</p></section>
+                <section><h3>Qué aprendí</h3><p>Este proyecto me enseñó que no todos los problemas necesitan el mismo tiempo.</p><p>Hay cosas que simplemente hay que hacer y otras que primero necesitan pensarse bien porque van a condicionar muchas decisiones posteriores.</p><p>Desde entonces, cuando me encuentro un problema grande, intento entender primero cómo se relacionan todas las piezas antes de decidir por dónde empezar.</p></section>
+                <section><h3>Resultado</h3><p>Con todo ese análisis acabó saliendo una propuesta con las mejoras priorizadas y el orden en el que tenía sentido hacer los cambios. Algunas pudieron implementarse y otras quedaron pendientes porque dependían de AWS Organizations o de cambios que debía realizar el proveedor.</p><p>Más allá de las soluciones concretas, creo que me quedo con una forma distinta de afrontar este tipo de proyectos. Antes de empezar a cambiar cosas, prefiero entender bien qué tengo delante y decidir por dónde tiene sentido empezar.</p></section>
+                <div class="tag-list"><span>AWS</span><span>Security</span><span>IAM</span><span>SSO</span><span>AWS Organizations</span><span>Systems Manager</span><span>Session Manager</span><span>SCP</span><span>GuardDuty</span><span>Security Hub</span><span>Inspector</span></div>
+            </div>
+
+            <div class="case-view" data-view="aws-costs">
+                <button class="case-back" data-open-view="aws">← Volver a AWS</button>
+                <span class="case-kicker">Proyecto 03 · AWS</span>
+                <h2>Análisis y optimización de costes en una infraestructura AWS</h2>
+                <section><h3>Contexto</h3><p>Todo empezó cuando, revisando los costes de S3, encontré varias configuraciones que ya no tenían sentido y que estaban aumentando la factura. A partir de ahí empezamos a revisar periódicamente los costes de AWS para entender qué estaba provocando cada cambio y detectar posibles oportunidades de mejora.</p><p>Más que intentar reducir la factura sin un criterio claro, el objetivo era saber exactamente qué estábamos pagando y por qué.</p></section>
+                <section><h3>Qué hice</h3><p>Siempre empezaba revisando el Top 3 de la factura. Si alguno de los servicios había subido de coste, lo primero era entender por qué antes de sacar ninguna conclusión.</p><p>Poco a poco fui relacionando cada servicio con los cambios que se iban realizando en la infraestructura. Muchas veces el aumento tenía una explicación lógica, como el despliegue de nuevas instancias EC2, un nuevo clúster de Aurora o nuevos servicios. Otras veces encontraba configuraciones que ya no tenían sentido y que podían optimizarse.</p><p>Preparaba informes periódicos explicando la evolución de los servicios con mayor coste. El objetivo no era solo indicar si la factura había subido o bajado, sino justificar qué cambios en la infraestructura habían provocado esa variación y diferenciar entre aumentos esperados y posibles anomalías.</p><p>El caso que más recuerdo fue S3. Lo que empezó siendo una subida de coste más acabó haciendo que entendiera cómo funcionaban el versionado, la replicación y las políticas Lifecycle. Antes de cambiar nada comprobé que no hubiera impacto sobre los datos y, cuando vi que todo cuadraba, eliminé configuraciones que ya no aportaban valor, apliqué nuevas políticas de almacenamiento y seguí revisando la factura durante los meses siguientes para confirmar que realmente habían funcionado.</p><p>Otro caso interesante fue Aurora MySQL. Revisando la factura detecté que seguíamos pagando el soporte extendido de Aurora MySQL 5.7, con un coste aproximado de 333 dólares al mes. Tras comunicarlo, se planificó la migración a Aurora MySQL 8 y ese coste dejó de formar parte de la factura.</p><p>Además, dejé configuradas alertas de AWS Cost Anomaly Detection para enterarme rápidamente si aparecía algún incremento inesperado y poder revisarlo cuanto antes.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo que más me sorprendió de este proyecto fue darme cuenta de que no puedes optimizar una infraestructura si antes no entiendes cómo factura AWS.</p><p>Muchas veces un aumento de coste no era un problema. Simplemente era la consecuencia de haber desplegado nuevos servicios o de que la infraestructura hubiera crecido. La parte importante era saber diferenciar cuándo ese aumento era esperado y cuándo realmente había algo que revisar.</p></section>
+                <section><h3>Qué aprendí</h3><p>Hasta entonces veía la factura de AWS como una lista de números. Después de este proyecto empecé a verla como una herramienta más para entender qué estaba pasando en la infraestructura.</p><p>El mayor aprendizaje fue darme cuenta de que no puedes optimizar una infraestructura si antes no entiendes cómo factura AWS. Cuando entiendes eso, empiezas a ver la factura de una forma completamente distinta y sabes mucho mejor por dónde empezar.</p></section>
+                <section><h3>Resultado</h3><p>Después de varios meses revisando costes, dejé de mirar la factura como un número y empecé a verla como una herramienta más para entender qué estaba pasando en la infraestructura. Ese cambio de perspectiva fue, sin duda, el mayor aprendizaje de este proyecto.</p></section>
+                <div class="tag-list"><span>AWS</span><span>FinOps</span><span>Cost Explorer</span><span>S3</span><span>Lifecycle</span><span>Aurora MySQL</span><span>Cost Anomaly Detection</span><span>Backup</span><span>EC2</span><span>Cloud Cost</span></div>
+            </div>
+
+            <div class="case-view" data-view="aws-doc">
+                <button class="case-back" data-open-view="aws">← Volver a AWS</button>
+                <span class="case-kicker">Proyecto 04 · AWS</span>
+                <h2>Análisis y documentación de una infraestructura AWS</h2>
+                <section><h3>Contexto</h3><p>Cuando alguien tenía que trabajar sobre una aplicación, muchas veces primero había que dedicar bastante tiempo a entender cómo estaba montada y de qué recursos dependía.</p><p>Para solucionarlo empecé a documentar la arquitectura de cada aplicación, creando diagramas y documentación técnica que permitieran entender rápidamente cómo estaba montada y qué servicios formaban parte de ella, tanto para el equipo como para futuros proveedores externos.</p></section>
+                <section><h3>Qué hice</h3><p>Mi forma de trabajar siempre era la misma. Empezaba analizando la instancia EC2 y, sobre todo, sus Security Groups, ya que me permitían identificar rápidamente quién podía acceder a la aplicación y por dónde entraba el tráfico.</p><p>A partir de ahí iba siguiendo todas las dependencias. Revisaba si existían balanceadores, bases de datos, almacenamiento, reglas de red y el resto de servicios que participaban en la aplicación hasta tener una visión completa de cómo estaba montada.</p><p>Cuando ya entendía todo el conjunto, preparaba un diagrama junto con la documentación técnica para dejar reflejada toda esa información de una forma clara y fácil de consultar. La idea era que cualquier persona pudiera abrir el documento y entender rápidamente cómo estaba montada la aplicación y de qué recursos dependía, sin tener que volver a analizar todos los servicios desde cero.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo que más me gustó de este proyecto fue que, cuando terminaba el diagrama, ya sabía exactamente de qué dependía la aplicación.</p><p>Lo que al principio parecía un conjunto de recursos sueltos acababa teniendo sentido. Muchas veces empezaba revisando una única instancia EC2 y terminaba descubriendo balanceadores, bases de datos, almacenamiento y otros servicios que también formaban parte de la aplicación.</p><p>No era hasta terminar el diagrama cuando realmente entendía cómo estaba montada la aplicación.</p></section>
+                <section><h3>Qué aprendí</h3><p>Aprendí que una aplicación no se entiende mirando únicamente los recursos principales. Hay que seguir todas sus dependencias hasta tener una visión completa antes de empezar a hacer cambios.</p><p>Desde entonces, antes de plantear cualquier cambio intento entender primero cómo está montada la aplicación y qué impacto puede tener cada decisión sobre el resto de servicios.</p></section>
+                <section><h3>Resultado</h3><p>Hoy esa documentación permite entender mucho más rápido cómo está montada cada aplicación y empezar a trabajar sobre ella sin tener que descubrir toda su arquitectura desde cero.</p></section>
+                <div class="tag-list"><span>AWS</span><span>Documentation</span><span>EC2</span><span>Security Groups</span><span>Load Balancers</span><span>Aurora</span><span>EBS</span><span>Architecture Diagram</span><span>Cloud Infrastructure</span></div>
+            </div>
+
+            <div class="case-view" data-view="aws-continuous">
+                <button class="case-back" data-open-view="aws">← Volver a AWS</button>
+                <span class="case-kicker">Proyecto 05 · AWS</span>
+                <h2>Mejora continua de una infraestructura AWS</h2>
+                <section><h3>Contexto</h3><p>Una vez la infraestructura ya estaba funcionando, empezaron a aparecer pequeñas mejoras que ayudaban a hacerla más segura, más fiable y mucho más fácil de mantener.</p><p>Aunque por separado parecían cambios pequeños, juntos marcaron una diferencia importante en el día a día y dejaron una base mucho más sólida para seguir evolucionando.</p></section>
+                <section><h3>Qué hice</h3><p>Una de las primeras tareas fue revisar la seguridad de los accesos. Deshabilité cuentas que ya no se utilizaban, roté o eliminé Access Keys cuando era necesario y activé MFA para reforzar la protección de los usuarios. Antes de eliminar cualquier acceso, comprobaba siempre que realmente ya no estuviera en uso para evitar cualquier impacto.</p><p>Otra de las mejoras que más recuerdo fue la implantación de AWS Backup. Diseñé una estrategia basada en etiquetas para automatizar las copias de seguridad de los recursos de producción. Además, definimos distintas políticas de retención y replicamos las copias en otra región para mejorar la recuperación ante desastres.</p><p>También participé en una prueba de concepto con Storage Gateway y FSx para ampliar el almacenamiento disponible desde un servidor local. Aunque finalmente no llegó a utilizarse en producción porque se amplió el almacenamiento físico existente, toda la solución quedó implementada y validada.</p></section>
+                <section><h3>Lo más interesante</h3><p>Lo que más me gustó de este proyecto fue comprobar que muchas veces las mejoras que más valor aportan son las que menos se ven.</p><p>Automatizar las copias de seguridad, reforzar la gestión de accesos o preparar nuevas soluciones de almacenamiento son cambios que pasan desapercibidos, pero que hacen que una infraestructura sea mucho más segura y sencilla de mantener.</p></section>
+                <section><h3>Qué aprendí</h3><p>Aprendí que una infraestructura nunca está realmente terminada. Siempre hay pequeños detalles que mejorar para hacerla más segura, más estable y más fácil de gestionar.</p><p>Desde entonces intento seguir siempre la misma idea: antes de añadir cosas nuevas, merece la pena dedicar tiempo a dejar bien lo que ya existe.</p></section>
+                <section><h3>Resultado</h3><p>Estas mejoras permitieron reforzar la seguridad de la infraestructura, automatizar la protección de los datos y dejar una base mucho más sólida para seguir evolucionando.</p></section>
+                <div class="tag-list"><span>AWS</span><span>IAM</span><span>MFA</span><span>Access Keys</span><span>AWS Backup</span><span>Backup Tags</span><span>Disaster Recovery</span><span>Storage Gateway</span><span>FSx</span><span>Operations</span></div>
+            </div>
         </article>
     </div>
-
 </main>
 
 <script src="script.js"></script>
 </body>
-
 </html>
